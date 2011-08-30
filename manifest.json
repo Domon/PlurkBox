@@ -1,0 +1,20 @@
+{
+  "name": "PlurkBox",
+  "version": "0.1.0.0",
+  "description": "Enhance your picture viewing experience in Plurk.",
+  "icons": {"16": "icons/16.png", "48": "icons/48.png", "128": "icons/128.png"},
+  "content_scripts": [
+    {
+      "matches": ["http://www.plurk.com/*"],
+      "exclude_globs": ["*/p/*"],
+      "css": ["colorbox.css", "tl.css"],
+      "js": ["jquery.min.js", "jquery.colorbox-min.js", "tl.js"]
+    },
+    {
+      "matches": ["http://www.plurk.com/p/*"],
+      "css": ["colorbox.css", "p.css"],
+      "js": ["jquery.min.js", "jquery.colorbox-min.js", "p.js"]
+    }
+  ],
+  "permissions": ["http://www.plurk.com/*"]
+}
