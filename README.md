@@ -4,6 +4,12 @@ PlurkBox
 PlurkBox is a simple Chrome extension to enhance picture viewing experiences in Plurk.
 
 
+Installation
+------------
+
+Please visit [PlurkBox - Chrome Web Store](https://chrome.google.com/webstore/detail/pjbhgmojakgmjkeilapaekjmclnifkpf).
+
+
 License
 -------
 

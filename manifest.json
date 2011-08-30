@@ -1,6 +1,6 @@
 {
   "name": "PlurkBox",
-  "version": "0.1.0.0",
+  "version": "0.1.0.1",
   "description": "Enhance your picture viewing experience in Plurk.",
   "icons": {"16": "icons/16.png", "48": "icons/48.png", "128": "icons/128.png"},
   "content_scripts": [
